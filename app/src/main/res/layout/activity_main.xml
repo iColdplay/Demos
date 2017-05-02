@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="80dp"
+    tools:context="com.agold.demo.MainActivity">
+
+
+
+    <com.agold.demo.SlideView
+        android:id="@+id/slider1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:buttonBackgroundColor="@android:color/white"
+        app:buttonImage="@drawable/ic_call"
+        app:slideBackgroundColor="@color/colorAccent"
+        app:slideText="CALL"
+        app:slideTextColor="@android:color/white" />
+
+    <com.agold.demo.SlideView
+        android:id="@+id/slider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        app:buttonBackgroundColor="@android:color/white"
+        app:buttonImage="@drawable/ic_sms"
+        app:slideBackgroundColor="@color/colorAccent"
+        app:slideText="SMS"
+        app:slideTextColor="@android:color/white"
+        app:strokeColor="@color/colorAccent"/>
+
+
+    <com.agold.demo.SlideView
+        android:id="@+id/slider3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        app:buttonBackgroundColor="@android:color/white"
+        app:buttonImage="@drawable/ic_sos"
+        app:slideBackgroundColor="@color/colorAccent"
+        app:slideText="SOS"
+        app:slideTextColor="@android:color/white"
+        app:strokeColor="@color/colorAccent"/>
+
+</LinearLayout>
